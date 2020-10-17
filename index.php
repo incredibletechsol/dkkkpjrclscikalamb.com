@@ -55,7 +55,7 @@
 
 
       <section class="feature_bottom row sub_content">
-        <div class="col-lg-6 wow fadeInLeft">
+        <div class="col-lg-4">
              <div class="widget widget_tab">
                 <ul  class="nav nav-tabs">
                     <li class="active"><a href="#Popular" data-toggle="tab">News</a></li>
@@ -68,7 +68,7 @@
             </div>
         </div>
 
-        <div class="col-lg-6 wow fadeInRight">
+        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
             <div class="dividerHeading">
                 <h4><span>Welcome To Late Sahebrao Phadtare Junior College Science</span></h4>
             </div>
