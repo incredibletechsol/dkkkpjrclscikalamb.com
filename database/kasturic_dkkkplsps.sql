@@ -1,4 +1,4 @@
-DROP TABLE tbl_enquiry;
+DROP TABLE IF EXISTS tbl_enquiry;
 
 CREATE TABLE `tbl_enquiry` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -12,7 +12,7 @@ CREATE TABLE `tbl_enquiry` (
 
 
 
-DROP TABLE tbl_faculty;
+DROP TABLE IF EXISTS tbl_faculty;
 
 CREATE TABLE `tbl_faculty` (
   `id` int(30) NOT NULL AUTO_INCREMENT,
@@ -29,7 +29,7 @@ CREATE TABLE `tbl_faculty` (
 
 
 
-DROP TABLE tbl_gallery;
+DROP TABLE IF EXISTS tbl_gallery;
 
 CREATE TABLE `tbl_gallery` (
   `photoid` int(10) NOT NULL AUTO_INCREMENT,
@@ -44,7 +44,7 @@ INSERT INTO tbl_gallery VALUES("54","biology.jpg","Biology Practicals");
 
 
 
-DROP TABLE tbl_login;
+DROP TABLE IF EXISTS tbl_login;
 
 CREATE TABLE `tbl_login` (
   `member_id` int(11) NOT NULL AUTO_INCREMENT,
@@ -59,7 +59,7 @@ INSERT INTO tbl_login VALUES("1","lspsadmin","Phadtare12#$","Jayashri","Jamdade"
 
 
 
-DROP TABLE tbl_news;
+DROP TABLE IF EXISTS tbl_news;
 
 CREATE TABLE `tbl_news` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
